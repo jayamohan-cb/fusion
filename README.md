@@ -106,7 +106,10 @@ This research aims to contribute to the development of autonomous vehicles by in
 
 
 Configuration
-We experimented fusion approaches on the code base of the interfuser project. Interfuser project was built and tested using carla simulator and carla dataset. 
+
+We experimented fusion approaches on the code base of the interfuser project. Interfuser project was built and tested using carla simulator and carla dataset. Training was carried out the machine with Machine with Intel(R) Xeon(R) 12 cores , 32GB RAM and 2 GPUs (Quadro RTX 6000 and Quadro P400).
 
 Carla Engine
-Carla simulation engine is tool for simulating various scenarios and weather conditions for testing autonomous driving vehicles. Carla engine is used for the generating the test and validation data. Once training and test images are generated after running various scenarios using batch collection script files provided from interfuser source repository , frames from different cameras are stored in jpg format and lidar point clouds are stored in numpy format in the respective directory in the dataset folder.
+
+Carla simulation engine is tool for simulating various scenarios and weather conditions for testing autonomous driving vehicles. Carla engine is used for the generating the test and validation data. Once training and test images are generated after running various scenarios using batch collection script files provided from interfuser source repository , frames from different cameras are stored in jpg format and lidar point clouds are stored in numpy format in the respective directory in the dataset folder.Carla Engine was installed on another machine to save the resources on the training machine. Generated data was finally copied to training machine before training the model.
+
