@@ -113,3 +113,7 @@ Carla Engine
 
 Carla simulation engine is tool for simulating various scenarios and weather conditions for testing autonomous driving vehicles. Carla engine is used for the generating the test and validation data. Once training and test images are generated after running various scenarios using batch collection script files provided from interfuser source repository , frames from different cameras are stored in jpg format and lidar point clouds are stored in numpy format in the respective directory in the dataset folder.Carla Engine was installed on another machine to save the resources on the training machine. Generated data was finally copied to training machine before training the model.
 
+Carla Leaderboard
+
+**The main goal of the CARLA Autonomous Driving Leaderboard is to evaluate the driving proficiency of autonomous agents in realistic traffic situations. The leaderboard serves as an open platform for the community to perform fair and reproducible evaluations, simplifying the comparison between different approaches.
+
