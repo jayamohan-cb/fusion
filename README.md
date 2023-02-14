@@ -105,4 +105,8 @@ Significance:
 This research aims to contribute to the development of autonomous vehicles by investigating different sensor fusion techniques for multi-sensor data fusion. The results of this research can provide insights into the strengths and weaknesses of different sensor fusion techniques and guide the development of more accurate and robust autonomous vehicles.
 
 
+Configuration
+We experimented fusion approaches on the code base of the interfuser project. Interfuser project was built and tested using carla simulator and carla dataset. 
 
+Carla Engine
+Carla simulation engine is tool for simulating various scenarios and weather conditions for testing autonomous driving vehicles. Carla engine is used for the generating the test and validation data. Once training and test images are generated after running various scenarios using batch collection script files provided from interfuser source repository , frames from different cameras are stored in jpg format and lidar point clouds are stored in numpy format in the respective directory in the dataset folder.
