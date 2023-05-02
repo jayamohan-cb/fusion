@@ -76,6 +76,8 @@ Another approach is to use a geometry-based method to align the lidar point clou
 
 There are also some works that propose to use the camera and lidar data together for semantic segmentation, which means classifying each pixel of an image into different object classes. For example, in the paper "Real-time Semantic Segmentation for Autonomous Driving using Lidar and Camera", the authors propose a system that fuses the lidar and camera data and use it for semantic segmentation in real-time.
 
+The ResNeSt: Split Attention Networks paper proposes a new approach for data fusion in deep learning that incorporates split attention mechanisms into ResNet-based models. The authors argue that this approach can improve the performance of multi-modal data analysis tasks, such as image classification and object detection, by allowing the model to attend to different regions of the input data separately and then combine the attended features for more accurate predictions.
+
 Overall, lidar and camera fusion is a highly active research area in multi-sensor data fusion for autonomous vehicles, and many papers have proposed various methods to improve the accuracy and robustness of object detection and tracking. These methods range from deep learning-based approaches to geometry-based methods and real-time semantic segmentation.
 
 
