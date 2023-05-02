@@ -113,6 +113,8 @@ Carla Engine
 
 Carla simulation engine is tool for simulating various scenarios and weather conditions for testing autonomous driving vehicles. The CARLA simulator generates a dataset of synthetic driving scenarios that can be used for a variety of machine learning tasks such as object detection, semantic segmentation, and self-driving car research. The dataset contains a sequence of RGB images, depth maps, and semantic segmentation maps captured from the perspective of a virtual camera mounted on a car.Dataset can be generated using various scenarios under different weather conditions with the help of the python script files comes with the carla source.Training and test data are generated using batch collection script files from carla source repository. Script files starts simulation and captures frames from different cameras and LIDAR sensor.Data from cameras are stored in jpg format and lidar point clouds are stored in numpy format in the respective directory in the dataset folder.
 In this work, Carla Engine was installed on another machine to save the resources on the training machine. Generated data was finally copied to training machine before training the model.
+![image](https://user-images.githubusercontent.com/97166528/235637123-b970aa06-53fd-4722-b925-8418b09748a9.png)
+
 
 Carla Leaderboard
 
